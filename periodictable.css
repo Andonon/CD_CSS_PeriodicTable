@@ -1,0 +1,122 @@
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   */
+/* Coding Dojo HTML CSS                                        */
+/***************************************************************/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***************************************************/
+/*              Page Wrapper                       */
+/***************************************************/
+#wrapper {
+    background-color: #eee;   
+    width: 900px;
+    height: 1000px; 
+    z-index: -1;
+}
+
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
+#titlebar {
+    height: 50px; 
+    width: 900px;
+    background-image: radial-gradient(ellipse at 0px 0px, darkgreen,#eee);
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+}
+#titlebar h1{
+    text-shadow: 3px 3px 3px grey;
+}
+li {
+    background-color: #eee;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1px;
+    border: solid 1px grey;
+}
+.bordertext {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+.subtitlebox{
+    width: 10px;
+
+}
+.bluebox {
+    background-color: #689bff;
+    line-height: 14px;
+}
+.pinkbox {
+    background-color: #fd9a98;
+    line-height: 14px;
+}
+.pinkspacerbox{
+    margin-left: 10px;
+    background-color: #fd9a98;
+}
+.orangebox {
+    background-color: #fecb00;
+    line-height: 14px;
+}
+.greenbox {
+    background-color: #1fca21;
+    line-height: 14px;
+}
+.greenspacerbox {
+    margin-left: 10px;
+    border: solid 1px transparent;
+    background-color: #1fca21;
+}
+.nobox{
+    border: solid 1px transparent;
+}
+.elementid { 
+    color: #282fb2;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.elementdetail {
+    font-size: 9px;
+    color: black;
+    text-align: center;
+}
+.clearbox{
+    border: solid 1px transparent;
+    background-color: transparent;
+}
+#lanthanoids{
+    margin-top: 15px;
+    border: solid 1px solid transparent;
+}
+.actinoids{
+    border: solid 1px solid transparent;
+}
+.spacerbox{
+    margin-left: 10px;
+    border: solid 1px transparent;
+}
+.narrowspacerbox{
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
