@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--==============================================================-->
-<!--  Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   -->
-<!--  Coding Dojo HTML CSS Training                               -->
-<!--==============================================================-->
+<!--============================================================================-->
+<!--  Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.                 -->
+<!--  Coding Dojo HTML CSS Training, HTML5 Semantics.                           -->
+<!--============================================================================-->
 
    <head>
         <meta charset="UTF-8">
@@ -14,61 +14,73 @@
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     </head>
     <body>
-        <section id="wrapper">
+
+<!--============================================================================-->
+<!--  I chose to use uls to create this... No tables.                           -->
+<!--  I did the spacing in CSS at a high level.                                 -->
+<!--  I used classes to color the boxes.                                        -->
+<!--  Is there a way to do this with 100 lines of html code?                    -->
+<!--  I'm thinking about it. This was the easiest I could think of              -->
+<!--  before I started coding it. I was thinking about this for a few days      -->
+<!--  along with cannot use tables. THis was an optional assignment.            -->
+<!--  The image to be copied is in the folder as a bmp.                         -->
+<!--============================================================================-->
+
+        <section id="theperiodictable">
             <header id="titlebar"> 
                 <h1>The Periodic Table</h1>
             </header>
-            <section id="main">
+            <div id="main">
                 <ul id="headerrow">
-                    <li class="nobox"><p class="bordertext">Group Period</p></li
-                    ><li class="nobox"><p class="bordertext">1</p></li
-                    ><li class="nobox"><p class="bordertext">2</p></li
-                    ><li class="spacerbox"><p class="bordertext">3</p></li
-                    ><li class="nobox"><p class="bordertext">4</p></li
-                    ><li class="nobox"><p class="bordertext">5</p></li
-                    ><li class="nobox"><p class="bordertext">6</p></li
-                    ><li class="nobox"><p class="bordertext">7</p></li
-                    ><li class="nobox"><p class="bordertext">8</p></li
-                    ><li class="nobox"><p class="bordertext">9</p></li
-                    ><li class="nobox"><p class="bordertext">10</p></li
-                    ><li class="nobox"><p class="bordertext">11</p></li
-                    ><li class="nobox"><p class="bordertext">12</p></li
-                    ><li class="nobox"><p class="bordertext">13</p></li
-                    ><li class="nobox"><p class="bordertext">14</p></li
-                    ><li class="nobox"><p class="bordertext">15</p></li
-                    ><li class="nobox"><p class="bordertext">16</p></li
-                    ><li class="nobox"><p class="bordertext">17</p></li
-                    ><li class="nobox"><p class="bordertext">18</p></li
+                    <li class="clearbox"><p class="bordertext">Group Period</p></li
+                    ><li class="clearbox"><p class="bordertext">1</p></li
+                    ><li class="clearbox"><p class="bordertext">2</p></li
+                    ><li class="clearspacerbox"><p class="bordertext">3</p></li
+                    ><li class="clearbox"><p class="bordertext">4</p></li
+                    ><li class="clearbox"><p class="bordertext">5</p></li
+                    ><li class="clearbox"><p class="bordertext">6</p></li
+                    ><li class="clearbox"><p class="bordertext">7</p></li
+                    ><li class="clearbox"><p class="bordertext">8</p></li
+                    ><li class="clearbox"><p class="bordertext">9</p></li
+                    ><li class="clearbox"><p class="bordertext">10</p></li
+                    ><li class="clearbox"><p class="bordertext">11</p></li
+                    ><li class="clearbox"><p class="bordertext">12</p></li
+                    ><li class="clearbox"><p class="bordertext">13</p></li
+                    ><li class="clearbox"><p class="bordertext">14</p></li
+                    ><li class="clearbox"><p class="bordertext">15</p></li
+                    ><li class="clearbox"><p class="bordertext">16</p></li
+                    ><li class="clearbox"><p class="bordertext">17</p></li
+                    ><li class="clearbox"><p class="bordertext">18</p></li
                 ></ul>
                 <ul id="row1">
-                    <li class="nobox"><p class="bordertext">1</p></li
+                    <li class="clearbox"><p class="bordertext">1</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">1</p>
                         <p class="elementid">H</p>
                         <p class="elementdetail">1.008</p></li
-                    ><li class="nobox"></li
-                    ><li class="spacerbox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
                     ><li class="orangebox">
                         <p class="elementdetail">2</p>
                         <p class="elementid">He</p>
                         <p class="elementdetail">4.0026</p></li
                 ></ul>
                 <ul id="row2">
-                    <li class="nobox"><p class="bordertext">2</p></li
+                    <li class="clearbox"><p class="bordertext">2</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">3</p>
                         <p class="elementid">Li</p>
@@ -77,16 +89,16 @@
                         <p class="elementdetail">4</p>
                         <p class="elementid">Be</p>
                         <p class="elementdetail">9.0122</p></li
-                    ><li class="spacerbox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
                     ><li class="orangebox">
                         <p class="elementdetail">5</p>
                         <p class="elementid">B</p>
@@ -113,7 +125,7 @@
                         <p class="elementdetail">20.180</p></li
                 ></ul>
                 <ul id="row3">
-                    <li class="nobox"><p class="bordertext">3</p></li
+                    <li class="clearbox"><p class="bordertext">3</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">11</p>
                         <p class="elementid">NA</p>
@@ -122,16 +134,16 @@
                         <p class="elementdetail">12</p>
                         <p class="elementid">Mg</p>
                         <p class="elementdetail">24.305</p></li
-                    ><li class="spacerbox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
+                    ><li class="clearspacerbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
                     ><li class="orangebox">
                         <p class="elementdetail">13</p>
                         <p class="elementid">Al</p>
@@ -158,7 +170,7 @@
                         <p class="elementdetail">39.948</p></li
                 ></ul>
                 <ul id="row4">
-                    <li class="nobox"><p class="bordertext">4</p></li
+                    <li class="clearbox"><p class="bordertext">4</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">19</p>
                         <p class="elementid">K</p>
@@ -233,7 +245,7 @@
                         <p class="elementdetail">83.798</p></li
                 ></ul>
                 <ul id="row5">
-                    <li class="nobox"><p class="bordertext">5</p></li
+                    <li class="clearbox"><p class="bordertext">5</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">37</p>
                         <p class="elementid">Rb</p>
@@ -308,7 +320,7 @@
                         <p class="elementdetail">131.29</p></li
                 ></ul>
                 <ul id="row6">
-                    <li class="nobox"><p class="bordertext">6</p></li
+                    <li class="clearbox"><p class="bordertext">6</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">55</p>
                         <p class="elementid">Cs</p>
@@ -383,7 +395,7 @@
                         <p class="elementdetail">[222.02]</p></li
                 ></ul>
                 <ul id="row7">
-                    <li class="nobox"><p class="bordertext">7</p></li
+                    <li class="clearbox"><p class="bordertext">7</p></li
                     ><li class="bluebox">
                         <p class="elementdetail">87</p>
                         <p class="elementid">Fr</p>
@@ -458,9 +470,9 @@
                         <p class="elementdetail">[294]</p></li
                 ></ul>
                 <ul id="lanthanoids">
-                    <li class="nobox"></li
-                    ><li class="clearbox"><p class="bordertext">*Lathanoids</p></li
-                    ><li class="narrowspacerbox"><p class="bordertext">*</p></li
+                    <li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
                     ><li class="greenbox">                        
                         <p class="elementdetail">57</p>
                         <p class="elementid">La</p>
@@ -517,13 +529,13 @@
                         <p class="elementdetail">70</p>
                         <p class="elementid">Yb</p>
                         <p class="elementdetail">173.05</p></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
                 ></ul>
                 <ul id="actinoids">
-                    <li class="nobox"></li
-                    ><li class="clearbox"><p class="bordertext">**Actinoids</p></li
-                    ><li class="narrowspacerbox"><p class="bordertext">**</p></li
+                    <li class="clearbox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearspacerbox"></li
                     ><li class="greenbox">                        
                         <p class="elementdetail">89</p>
                         <p class="elementid">Ac</p>
@@ -580,11 +592,15 @@
                         <p class="elementdetail">102</p>
                         <p class="elementid">No</p>
                         <p class="elementdetail">[259.10]</p></li
-                    ><li class="nobox"></li
-                    ><li class="nobox"></li
+                    ><li class="clearbox"></li
+                    ><li class="clearbox"></li
                 ></ul>
-
-            </section>
+                <p class="fineprint">*Lathanoids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</p>
+                <p class="fineprint">**Actinoids&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</p>
+            </div>
         </section>
+        <footer id=footerbar>
+            <p>by Troy Center, May 29, 2017, Coding Dojo assignment for html css.</p>
+        </footer>
     </body>
 </html>
